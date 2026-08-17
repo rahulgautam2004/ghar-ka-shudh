@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Ghar Ka Shudh - Haldi Powder aur Garam Masala. WhatsApp par order karein.">
+<meta name="theme-color" content="#55200f">
+<title>Ghar Ka Shudh | Haldi & Garam Masala</title>
+
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="apple-touch-icon" href="images/favicon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ghar Ka Shudh | Haldi & Garam Masala">
+<meta property="og:description" content="100% shudh Haldi Powder aur Garam Masala - ghar jaisa swaad, WhatsApp par order karein.">
+<meta property="og:image" content="images/garam-masala.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ghar Ka Shudh | Haldi & Garam Masala">
+<meta name="twitter:description" content="100% shudh Haldi Powder aur Garam Masala - ghar jaisa swaad, WhatsApp par order karein.">
+<meta name="twitter:image" content="images/garam-masala.jpg">
+<style>
+:root{--b:#55200f;--g:#e7aa24;--bg:#fffaf0;--muted:#6d5a4b;--line:#ead8bd;--wa:#19a94b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,sans-serif;background:#fff;color:#2d1b12;line-height:1.5}
+a{text-decoration:none;color:inherit}button,input,textarea{font:inherit}
+.container{width:min(1160px,92%);margin:auto}.top{background:var(--b);color:#fff;padding:8px;text-align:center;font-size:13px}
+header{position:sticky;top:0;z-index:20;background:#fffdf9dd;backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}.logo{font:700 26px Georgia;color:var(--b)}.logo small{display:block;text-align:center;font:700 12px Arial;color:#805330}
+nav{display:flex;gap:20px;align-items:center;font-weight:700;font-size:14px}.phone{background:#f0bd49;padding:10px 15px;border-radius:9px}
+.hero{background:linear-gradient(100deg,#fff1d7,#f7e1ba 46%,#8b4e22);overflow:hidden}.heroGrid{display:grid;grid-template-columns:1fr 1fr;align-items:center;min-height:440px}
+.heroText{padding:40px 0}.eyebrow{color:#9d6714;font-size:12px;font-weight:800;letter-spacing:2px;text-transform:uppercase}.hero h1{font:700 clamp(40px,5vw,68px)/1.05 Georgia;color:var(--b);margin:12px 0}.hero h1 span{color:#b97911}.hero p{font-size:18px;color:#45352b;max-width:560px}.actions{display:flex;gap:10px;flex-wrap:wrap;margin:22px 0}.btn{border:0;padding:13px 18px;border-radius:9px;font-weight:800;cursor:pointer}.wa{background:var(--wa);color:white}.call{background:var(--b);color:white}.outline{background:#fff8e8;border:1px solid var(--b);color:var(--b)}
+.heroPics{height:440px;display:flex;justify-content:center;align-items:end;gap:14px}.heroPics img{width:45%;height:420px;object-fit:contain;object-position:center;border-radius:16px 16px 0 0;box-shadow:0 18px 40px #3a190c55}
+.trust{background:#fff9ee;border-bottom:1px solid var(--line)}.trustGrid{display:grid;grid-template-columns:repeat(4,1fr)}.trustGrid div{text-align:center;padding:15px;border-right:1px solid var(--line);font-size:12px}.trustGrid div:last-child{border:0}.trustGrid b{display:block;color:var(--b);font-size:17px}
+section{padding:65px 0}.heading{text-align:center;margin-bottom:30px}.heading h2{font:700 38px Georgia;color:var(--b);margin:4px 0}.heading p{color:var(--muted)}
+.products{display:grid;grid-template-columns:1fr 1fr;gap:22px}.card{background:#fff8e8;border:1px solid var(--line);border-radius:18px;overflow:hidden}.media{height:330px;background:#ead1a7}.media img{width:100%;height:100%;object-fit:contain;object-position:center;padding:18px}.body{padding:22px}.tag{font-size:11px;color:#98640f;font-weight:800;letter-spacing:1px}.card h3{font:700 28px Georgia;color:var(--b);margin:4px 0}.card p{font-size:14px;color:var(--muted)}
+.sizes{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin:14px 0}.size{background:#fff;border:1px solid #d6b66d;border-radius:8px;padding:8px;text-align:center;font-weight:800;cursor:pointer}.size.active{background:var(--b);color:#fff}
+.add{width:100%}.features{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.feature{background:#fff9ef;border:1px solid var(--line);border-radius:14px;text-align:center;padding:20px 10px}.feature .i{font-size:27px}.feature h3{font-size:15px;color:var(--b);margin:5px}.feature p{font-size:12px;color:var(--muted);margin:0}
+.how{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.step{border:1px solid var(--line);border-radius:14px;padding:20px;text-align:center;background:#fff}.num{width:40px;height:40px;margin:auto auto 8px;border-radius:50%;display:grid;place-items:center;background:var(--b);color:#fff;font-weight:800}
+.story{background:#f8eddb}.storyGrid{display:grid;grid-template-columns:1fr 1fr;gap:25px;align-items:center}.storyBox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:25px}.storyBox p{color:var(--muted)}.gallery{display:grid;grid-template-columns:1fr 1fr;gap:10px}.gallery img{height:230px;object-fit:contain;background:#f1dfbe;border-radius:14px;padding:10px}
+.useGrid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.use{background:#fff9ee;border:1px solid var(--line);border-radius:16px;padding:22px}.use h3{font:700 24px Georgia;color:var(--b)}.use li{color:var(--muted);margin:5px 0}
+.faq{max-width:850px;margin:auto}.faq details{background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px;margin:8px 0}.faq summary{font-weight:800;color:var(--b);cursor:pointer}
+.checkout{border-radius:20px;padding:30px}.checkoutGrid{display:grid;gap:25px}.cart{background:#fff;color:#2d1b12;border-radius:12px;padding:14px;min-height:120px}.row{display:flex;justify-content:space-between;border-bottom:1px solid #eee;padding:8px 0;font-size:14px}.form{display:grid;gap:9px}.form input,.form textarea{padding:12px;border:1px solid #c7ab8d;border-radius:8px}.form textarea{min-height:100px}.total{font-size:22px;font-weight:800;color:#f2c65c;margin:12px 0}
+.review{background:#fff9e8;border:1px dashed #c8a55d;border-radius:14px;padding:20px;text-align:center;color:var(--muted)}
+footer{background:#2a150c;color:#d9c8b5;padding:38px 0}.foot{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:20px}.foot h3{font:700 22px Georgia;color:#fff}.foot a,.foot p{font-size:13px;display:block;margin:6px 0}.copy{border-top:1px solid #60402a;margin-top:22px;padding-top:14px;text-align:center;font-size:12px}
+.fab{position:fixed;right:18px;bottom:18px;background:var(--wa);color:#fff;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;font-size:25px;z-index:30;box-shadow:0 10px 24px rgba(25,169,75,.35)}
+
+/* ---------- 3D CART / CHECKOUT ---------- */
+.checkout{
+  background:
+    radial-gradient(circle at 12% 12%,rgba(255,205,91,.18),transparent 27%),
+    radial-gradient(circle at 90% 88%,rgba(255,255,255,.06),transparent 25%),
+    linear-gradient(145deg,#3b160a,#6c2b0f 55%,#301208);
+  border-radius:28px;
+  padding:34px;
+  position:relative;
+  overflow:hidden;
+  box-shadow:0 28px 80px rgba(66,27,7,.30), inset 0 1px 0 rgba(255,255,255,.09);
+}
+.checkout:before{
+  content:"";
+  position:absolute;
+  width:310px;height:310px;
+  right:-100px;top:-110px;
+  background:radial-gradient(circle,rgba(247,194,75,.22),transparent 67%);
+  filter:blur(2px);
+  pointer-events:none;
+}
+.checkoutGrid{
+  position:relative;
+  grid-template-columns:1.15fr .85fr;
+}
+.cart-shell-3d{
+  background:linear-gradient(145deg,#fffdf9,#f6ecdd);
+  border:1px solid rgba(255,255,255,.85);
+  border-radius:22px;
+  padding:16px;
+  color:#2d1b12;
+  box-shadow:0 22px 50px rgba(0,0,0,.22), inset 0 1px 0 #fff;
+  transform:perspective(1000px) rotateX(.5deg);
+}
+.cart-head-3d{
+  display:flex;justify-content:space-between;align-items:center;
+  padding:3px 5px 12px;
+}
+.cart-head-3d b{font-size:18px;color:#55200f}
+.cart-head-3d span{font-size:12px;color:#8a7567}
+.cart-3d{
+  background:linear-gradient(180deg,#fff,#fbf4e8);
+  border:1px solid #eadcc9;
+  border-radius:17px;
+  padding:8px;
+  min-height:160px;
+  box-shadow:inset 0 1px 0 #fff;
+}
+.cart-empty-3d{
+  min-height:145px;display:grid;place-items:center;text-align:center;
+  color:#8a7667;font-size:14px;
+}
+.cart-row-3d{
+  display:grid;
+  grid-template-columns:1fr auto;
+  gap:12px;
+  align-items:center;
+  padding:12px 6px;
+  border-bottom:1px solid #eee3d4;
+}
+.cart-row-3d:last-child{border-bottom:0}
+.cart-left-3d{display:flex;gap:10px;align-items:center}
+.cart-thumb-3d{
+  width:52px;height:52px;object-fit:cover;border-radius:13px;
+  border:1px solid #e6d4ba;
+  box-shadow:0 7px 14px rgba(68,31,8,.12);
+}
+.cart-name-3d{font-weight:800;color:#3c2416}
+.cart-meta-3d{font-size:11px;color:#8a7364;margin-top:2px}
+.cart-price-3d{font-weight:900;color:#6b3015;text-align:right}
+.cart-qty-3d{display:flex;align-items:center;justify-content:flex-end;gap:8px;margin-top:6px}
+.qty-btn-3d{
+  width:24px;height:24px;border-radius:7px;border:1px solid #d6b996;
+  background:#fff3e2;color:#6a341c;font-weight:800;font-size:14px;
+  cursor:pointer;display:grid;place-items:center;line-height:1;padding:0;
+}
+.qty-btn-3d:hover{background:#f4e0c3}
+.qty-val-3d{font-weight:800;color:#3c2416;min-width:16px;text-align:center;font-size:13px}
+.cart-remove-3d{
+  border:0;background:#f4e6d5;color:#7c4b31;border-radius:999px;
+  padding:4px 8px;font-size:11px;cursor:pointer;margin-top:6px;
+}
+.cart-summary-3d{
+  display:flex;justify-content:space-between;align-items:center;
+  padding:13px 5px 2px;color:#654d3c;font-weight:700;
+}
+.total-3d{font-size:25px;font-weight:900;color:#a56508;text-shadow:0 1px #fff}
+.clear-3d{
+  border:1px solid #d6b996;background:#fff3e2;color:#6a341c;
+  border-radius:999px;padding:8px 13px;font-weight:800;cursor:pointer;
+}
+.form-card-3d{
+  background:linear-gradient(145deg,rgba(255,255,255,.15),rgba(255,255,255,.06));
+  border:1px solid rgba(255,255,255,.14);
+  border-radius:22px;padding:19px;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.12),0 20px 45px rgba(0,0,0,.18);
+}
+.form-title-3d{font:700 25px Georgia,serif;color:#ffe1a7;margin-bottom:4px}
+.form-hint-3d{font-size:12px;color:#e4d0be;margin-bottom:14px}
+.form-3d{display:grid;gap:10px}
+.form-3d label{font-size:11px;font-weight:800;color:#f4ddc7;margin-bottom:-4px}
+.form-3d input,.form-3d textarea{
+  width:100%;padding:13px 14px;border-radius:12px;
+  border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.96);
+  color:#2d1b12;outline:none;
+  box-shadow:0 8px 18px rgba(0,0,0,.08),inset 0 1px 0 #fff;
+}
+.form-3d input:focus,.form-3d textarea:focus{
+  border-color:#efb84d;box-shadow:0 0 0 3px rgba(239,184,77,.18);
+}
+.form-3d textarea{min-height:105px;resize:vertical}
+.checkout-submit-3d{
+  width:100%;padding:14px;border-radius:12px;font-size:15px;
+  box-shadow:0 12px 22px rgba(26,161,70,.22);
+}
+.order-note-3d{font-size:11px;color:#d9c1ac;text-align:center;margin-top:9px}
+
+.cartFab{
+  position:fixed;top:92px;right:22px;bottom:auto;z-index:30;
+  color:#fff;padding:12px 17px;border-radius:999px;font-weight:800;
+  border:1px solid rgba(255,255,255,.18);
+  background:linear-gradient(145deg,#7c3515,#45180a);
+  box-shadow:0 14px 28px rgba(55,20,5,.28),inset 0 1px 0 rgba(255,255,255,.18);
+  transform:translateZ(0);
+  transition:transform .2s ease,box-shadow .2s ease;
+}
+.cartFab:hover{transform:translateY(-2px);box-shadow:0 18px 34px rgba(55,20,5,.32),inset 0 1px 0 rgba(255,255,255,.18)}
+@media(max-width:600px){.cartFab{top:82px;right:14px}.heroPics img{height:270px}.media{height:320px}}
+
+@media(max-width:900px){nav{display:none}.heroGrid,.storyGrid,.checkoutGrid{grid-template-columns:1fr}.heroText{text-align:center}.hero p{margin-left:auto;margin-right:auto}.actions{justify-content:center}.products{grid-template-columns:1fr}.features{grid-template-columns:repeat(2,1fr)}.how{grid-template-columns:1fr 1fr}.foot{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.hero h1{font-size:40px}.heroPics{height:290px}.heroPics img{height:275px}.trustGrid{grid-template-columns:1fr 1fr}.sizes{grid-template-columns:1fr 1fr}.features,.how,.useGrid{grid-template-columns:1fr}.gallery{grid-template-columns:1fr}.foot{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="top">🌿 100% शुद्ध मसाले • कोई मिलावट नहीं • घर जैसा स्वाद • 🚚 ₹499+ Free Delivery</div>
+<header><div class="container nav">
+<a class="logo" href="#home">Ghar Ka Shudh<small>घर का शुद्ध मसाला</small></a>
+<nav><a href="#products">उत्पाद</a><a href="#why">क्यों चुनें</a><a href="#story">हमारी कहानी</a><a href="#order">ऑर्डर</a><a href="#contact">संपर्क</a><a class="phone" href="tel:+919532539301">☎ +91 95325 39301</a></nav>
+</div></header>
+
+<main>
+<section class="hero" id="home"><div class="container heroGrid">
+<div class="heroText"><div class="eyebrow">Pure • Honest • Everyday Spices</div>
+<h1>शुद्धता हमारी पहचान,<br><span>स्वाद आपका अभिमान</span></h1>
+<p>Ghar Ka Shudh Haldi Powder और Garam Masala — आपकी रोज़ की रसोई के लिए।</p>
+<div class="actions"><a class="btn wa" href="#products">🛒 खरीदें</a><a class="btn call" href="tel:+919532539301">☎ अभी कॉल करें</a><a class="btn outline" href="https://wa.me/919532539301?text=Namaste%20Ghar%20Ka%20Shudh!%20Mujhe%20order%20ke%20baare%20mein%20jaankari%20chahiye." target="_blank" rel="noopener">💬 WhatsApp</a></div>
+</div><div class="heroPics"><img src="images/haldi.jpg" alt="Ghar Ka Shudh Haldi Powder" width="500" height="500" loading="eager" fetchpriority="high"><img src="images/garam-masala.jpg" alt="Ghar Ka Shudh Garam Masala" width="500" height="500" loading="eager"></div>
+</div></section>
+
+<div class="trust"><div class="container trustGrid"><div><b>🌿 शुद्ध</b>गुणवत्ता</div><div><b>🛡 भरोसा</b>स्पष्ट जानकारी</div><div><b>📦 सुरक्षित</b>पैकिंग</div><div><b>💬 आसान</b>WhatsApp Order</div></div></div>
+
+<section id="products"><div class="container"><div class="heading"><div class="eyebrow">Our Products</div><h2>हमारे उत्पाद</h2><p>Pack चुनें, Cart में जोड़ें और WhatsApp checkout करें।</p></div>
+<div class="products">
+<article class="card" data-name="Haldi Powder"><div class="media"><img src="images/haldi.jpg" alt="Ghar Ka Shudh Haldi Powder pack" width="500" height="500" loading="lazy" decoding="async"></div><div class="body"><div class="tag">TURMERIC POWDER</div><h3>हल्दी पाउडर</h3><p>रोज़ की रसोई के लिए हल्दी पाउडर।</p><div class="sizes">
+<button class="size" data-weight="100g" data-price="60">100g<br>₹60</button><button class="size" data-weight="200g" data-price="110">200g<br>₹110</button><button class="size" data-weight="500g" data-price="250">500g<br>₹250</button><button class="size" data-weight="1kg" data-price="450">1kg<br>₹450</button></div><button class="btn wa add">🛒 Add to Cart</button></div></article>
+<article class="card" data-name="Garam Masala"><div class="media"><img src="images/garam-masala.jpg" alt="Ghar Ka Shudh Garam Masala pack" width="500" height="500" loading="lazy" decoding="async"></div><div class="body"><div class="tag">RICH AROMA • AUTHENTIC TASTE</div><h3>गरम मसाला</h3><p>हर खाने की खुशबू और स्वाद को और खास बनाने वाला मसाला।</p><div class="sizes">
+<button class="size" data-weight="100g" data-price="115">100g<br>₹115</button><button class="size" data-weight="200g" data-price="230">200g<br>₹230</button><button class="size" data-weight="500g" data-price="575">500g<br>₹575</button><button class="size" data-weight="1kg" data-price="1150">1kg<br>₹1,150</button></div><button class="btn wa add">🛒 Add to Cart</button></div></article>
+</div></div></section>
+
+<section id="why" style="background:#fff5e5"><div class="container"><div class="heading"><div class="eyebrow">Why Us</div><h2>हमें क्यों चुनें?</h2></div><div class="features">
+<div class="feature"><div class="i">🌿</div><h3>शुद्धता</h3><p>Quality focus</p></div><div class="feature"><div class="i">🌱</div><h3>ताज़ा स्वाद</h3><p>Rich aroma</p></div><div class="feature"><div class="i">🛡</div><h3>भरोसा</h3><p>Clear information</p></div><div class="feature"><div class="i">🏠</div><h3>घर जैसा</h3><p>Everyday cooking</p></div><div class="feature"><div class="i">📦</div><h3>सुरक्षित पैक</h3><p>Neat packaging</p></div>
+</div></div></section>
+
+<section><div class="container"><div class="heading"><div class="eyebrow">How to Order</div><h2>4 आसान स्टेप्स</h2></div><div class="how">
+<div class="step"><div class="num">1</div><h3>Product</h3><p>हल्दी या गरम मसाला चुनें।</p></div><div class="step"><div class="num">2</div><h3>Weight</h3><p>अपना pack चुनें।</p></div><div class="step"><div class="num">3</div><h3>Cart</h3><p>Quantity और total देखें।</p></div><div class="step"><div class="num">4</div><h3>WhatsApp</h3><p>Address भेजकर order करें।</p></div>
+</div></div></section>
+
+<section class="story" id="story"><div class="container storyGrid"><div class="storyBox"><div class="eyebrow">Our Story</div><h2>घर की रसोई से आपका भरोसा</h2><p>Ghar Ka Shudh का focus simple है: अच्छी presentation, साफ product information और आसान direct ordering.</p><p>अपनी वास्तविक FSSAI, business और product details यहाँ बाद में जोड़ सकते हैं।</p></div><div class="gallery"><img src="images/haldi.jpg" alt="Ghar Ka Shudh Haldi Powder" width="400" height="230" loading="lazy" decoding="async"><img src="images/garam-masala.jpg" alt="Ghar Ka Shudh Garam Masala" width="400" height="230" loading="lazy" decoding="async"></div></div></section>
+
+<section><div class="container"><div class="heading"><div class="eyebrow">How to Use</div><h2>मसाला कहाँ इस्तेमाल करें?</h2></div><div class="useGrid"><div class="use"><h3>हल्दी पाउडर</h3><ul><li>दाल और सब्ज़ी</li><li>कढ़ी और curry</li><li>रोज़ की cooking</li></ul></div><div class="use"><h3>गरम मसाला</h3><ul><li>Paneer और gravy</li><li>Chole / Rajma</li><li>Biryani और festive dishes</li></ul></div></div></div></section>
+
+<section><div class="container"><div class="heading"><div class="eyebrow">Reviews</div><h2>ग्राहक अनुभव</h2></div><div class="review">यहाँ केवल <b>वास्तविक ग्राहकों</b> के reviews लगाएँ। अभी नकली testimonial नहीं जोड़ा गया है।</div></div></section>
+
+<section><div class="container"><div class="heading"><div class="eyebrow">FAQ</div><h2>सामान्य सवाल</h2></div><div class="faq">
+<details><summary>Order कैसे करूँ?</summary><p>Product चुनें, pack select करें, Cart में जोड़ें और नीचे अपना नाम, phone और address भरकर WhatsApp Order भेजें।</p></details>
+<details><summary>Online payment जोड़ सकते हैं?</summary><p>हाँ। Razorpay या UPI payment gateway जोड़ा जा सकता है; इसके लिए merchant details चाहिए होंगी।</p></details>
+<details><summary>Custom domain जोड़ सकते हैं?</summary><p>हाँ। अपना .in या .com domain Vercel से connect कर सकते हैं।</p></details>
+</div></div></section>
+
+<section id="order"><div class="container"><div class="checkout">
+<div style="position:relative"><div class="eyebrow" style="color:#f4c45b">SECURE CHECKOUT</div>
+<h2>🛒 आपका स्मार्ट Cart</h2>
+<div style="color:#ecd8c5;font-size:13px;margin-bottom:18px">Products, quantity, total और delivery details एक ही जगह।</div></div>
+
+<div class="checkoutGrid">
+<div class="cart-shell-3d">
+  <div class="cart-head-3d"><b>आपका Cart</b><span id="cartStatus">0 items</span></div>
+  <div id="cart" class="cart-3d"><div class="cart-empty-3d">🛒<br>Cart अभी खाली है।<br>ऊपर से कोई product add करें।</div></div>
+  <div class="cart-summary-3d"><span>Order Total</span><span id="total" class="total-3d">₹0</span></div>
+  <div style="display:flex;justify-content:flex-end;margin-top:8px"><button id="clear" class="clear-3d">Cart Clear करें</button></div>
+</div>
+
+<div class="form-card-3d">
+  <div class="form-title-3d">Delivery Details</div>
+  <div class="form-hint-3d">नाम, मोबाइल और पता भरकर WhatsApp पर order भेजें।</div>
+  <form class="form-3d" id="checkout">
+    <label for="name">नाम</label><input id="name" placeholder="आपका नाम" required>
+    <label for="phone">मोबाइल</label><input id="phone" inputmode="numeric" placeholder="+91 XXXXX XXXXX" required>
+    <label for="address">पूरा पता</label><textarea id="address" placeholder="घर नंबर, गली, शहर, पिन कोड" required></textarea>
+    <button class="btn wa checkout-submit-3d" type="submit">💬 WhatsApp पर Order भेजें</button>
+  </form>
+  <div class="order-note-3d">Order भेजने से पहले quantity और total check कर लें।</div>
+</div>
+</div></div></div></section>
+</main>
+
+<footer id="contact"><div class="container foot">
+<div><h3>Ghar Ka Shudh</h3><p>घर का शुद्ध मसाला</p><p>शुद्धता, स्वाद और भरोसे के साथ।</p></div><div><h3>Quick Links</h3><a href="#products">उत्पाद</a><a href="#why">क्यों चुनें</a><a href="#story">हमारी कहानी</a><a href="#order">ऑर्डर</a></div><div><h3>Products</h3><a href="#products">हल्दी पाउडर</a><a href="#products">गरम मसाला</a></div><div><h3>संपर्क</h3><a href="tel:+919532539301">☎ +91 95325 39301</a><a href="https://wa.me/919532539301?text=Namaste%20Ghar%20Ka%20Shudh!%20Mujhe%20order%20ke%20baare%20mein%20jaankari%20chahiye." target="_blank" rel="noopener">💬 WhatsApp</a></div>
+</div><div class="container copy">© 2026 Ghar Ka Shudh. सभी अधिकार सुरक्षित।</div></footer>
+
+<button class="cartFab" onclick="document.getElementById('order').scrollIntoView()">🛒 Cart <span id="count">0</span></button>
+<a class="fab" href="https://wa.me/919532539301?text=Namaste%20Ghar%20Ka%20Shudh!%20Mujhe%20order%20ke%20baare%20mein%20jaankari%20chahiye." target="_blank" rel="noopener" aria-label="WhatsApp par sampark karein">◉</a>
+
+<script>
+const cart=[];
+const money=n=>"₹"+n.toLocaleString("en-IN");
+
+function render(){
+ const box=document.getElementById("cart"), count=document.getElementById("count"),
+ status=document.getElementById("cartStatus"), total=document.getElementById("total");
+ const itemCount=cart.reduce((s,x)=>s+x.qty,0);
+ count.textContent=itemCount;
+ status.textContent=itemCount+" item"+(itemCount===1?"":"s");
+ if(!cart.length){
+   box.innerHTML='<div class="cart-empty-3d">🛒<br>Cart अभी खाली है।<br>ऊपर से कोई product add करें।</div>';
+   total.textContent="₹0"; return;
+ }
+ let sum=0; box.innerHTML="";
+ cart.forEach((x,i)=>{
+   sum+=x.qty*x.price;
+   const row=document.createElement("div");
+   row.className="cart-row-3d";
+   const thumb=x.name==="Haldi Powder"?"images/haldi.jpg":"images/garam-masala.jpg";
+   row.innerHTML=`<div class="cart-left-3d">
+     <img class="cart-thumb-3d" src="${thumb}" alt="${x.name}">
+     <div><div class="cart-name-3d">${x.name}</div><div class="cart-meta-3d">${x.weight}</div></div>
+   </div>
+   <div style="text-align:right">
+     <div class="cart-price-3d">${money(x.qty*x.price)}</div>
+     <div class="cart-qty-3d">
+       <button type="button" class="qty-btn-3d" data-action="dec" aria-label="Quantity kam karein">−</button>
+       <span class="qty-val-3d">${x.qty}</span>
+       <button type="button" class="qty-btn-3d" data-action="inc" aria-label="Quantity badhayein">+</button>
+     </div>
+     <button type="button" class="cart-remove-3d">Remove</button>
+   </div>`;
+   row.querySelector('[data-action="inc"]').onclick=()=>{cart[i].qty++;render()};
+   row.querySelector('[data-action="dec"]').onclick=()=>{
+     cart[i].qty--;
+     if(cart[i].qty<=0) cart.splice(i,1);
+     render();
+   };
+   row.querySelector(".cart-remove-3d").onclick=()=>{cart.splice(i,1);render()};
+   box.appendChild(row);
+ });
+ total.textContent=money(sum);
+}
+
+document.querySelectorAll(".card").forEach(card=>{
+ let selected;
+ const sizes=card.querySelectorAll(".size");
+ sizes[0].classList.add("active");selected=sizes[0];
+ sizes.forEach(s=>s.onclick=()=>{sizes.forEach(x=>x.classList.remove("active"));s.classList.add("active");selected=s});
+ card.querySelector(".add").onclick=()=>{
+   const name=card.dataset.name, weight=selected.dataset.weight, price=+selected.dataset.price;
+   const f=cart.find(x=>x.name===name&&x.weight===weight);
+   if(f)f.qty++;else cart.push({name,weight,price,qty:1});
+   render();document.getElementById("order").scrollIntoView({behavior:"smooth"});
+ };
+});
+
+document.getElementById("clear").onclick=()=>{cart.length=0;render()};
+
+document.getElementById("checkout").onsubmit=e=>{
+ e.preventDefault();
+ if(!cart.length){alert("Pehle product cart mein add karein.");return}
+ const name=document.getElementById("name").value.trim();
+ const phone=document.getElementById("phone").value.trim();
+ const address=document.getElementById("address").value.trim();
+ if(!/^[+\d][\d\s-]{9,14}$/.test(phone)){
+   alert("Kripya sahi mobile number daalein.");
+   return;
+ }
+ let total=0,lines=[];
+ cart.forEach(x=>{total+=x.qty*x.price;lines.push(`${x.name} - ${x.weight} x ${x.qty} = ₹${x.qty*x.price}`)});
+ const message=
+`Namaste Ghar Ka Shudh!
+Name: ${name}
+Phone: ${phone}
+Address: ${address}
+
+Order:
+${lines.join("\n")}
+
+Total: ₹${total}`;
+ window.open(`https://wa.me/919532539301?text=${encodeURIComponent(message)}`,"_blank");
+};
+render();
+
+// Fallback for broken product images — capture phase because "error" doesn't bubble,
+// this also covers cart thumbnails added dynamically after page load.
+document.addEventListener("error", e=>{
+  const img=e.target;
+  if(img.tagName!=="IMG") return;
+  img.style.display="none";
+  const parent=img.parentElement;
+  if(parent && !parent.querySelector(".img-fallback")){
+    const f=document.createElement("div");
+    f.className="img-fallback";
+    f.textContent="Ghar Ka Shudh";
+    f.style.cssText="display:grid;place-items:center;width:100%;height:100%;min-height:60px;background:#ead3aa;color:#55200f;font:700 14px Georgia;border-radius:inherit";
+    parent.appendChild(f);
+  }
+}, true);
+</script>
+</body></html>
